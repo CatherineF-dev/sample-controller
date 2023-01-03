@@ -125,6 +125,8 @@ type User struct {
 	Password string `json:"password"`
 }
 ```
+Note, json tag `json:` is needed to generate informer externalversions package.
+Otherwise, informer internalversion package is generated.
 
 ## Validation
 
